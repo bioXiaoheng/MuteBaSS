@@ -41,7 +41,7 @@ for which the <code>-c <p,x></code> argument should be `-c 2,5`.
   
   
 #### Configuration file for HKA
-When choosing to perform scans with the HKA statistic, users must provide a corresponding configuration file with `--config` argument. This file records the proportions (conditional on informative sites) of within-species polymorphisms and cross-species substitutions for each set of sample sizes. Configuration files should **not** have headers, should be *tab-delimited*, and each line should present the needed information in the following order in one line:
+When choosing to perform scans with the HKA statistic, users must provide a corresponding configuration file with `--config` argument. This file records the proportions of within-species polymorphisms and cross-species substitutions for each set of sample sizes among all informative sites (*i.e.*, the two combined) across the genome. Configuration files should **not** have headers, should be *tab-delimited*, and each line should present the needed information in the following order in one line:
 
 | \<n1\> | \<n2\> | ... | \<nk\> | \<poly\> | \<sub\> |
 |----------|----|----|-----|----|----|
